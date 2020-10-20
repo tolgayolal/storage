@@ -2,6 +2,6 @@
 
 ## Refresh branch list
 This code refresh all branches. Delete closed branches, add new branches etc..
-```bash
+```cmd
 git remote update origin --prune
 ```
