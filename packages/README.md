@@ -4,6 +4,6 @@
 
 **[dotnet ef](https://www.nuget.org/packages/dotnet-ef/)**
 
-**[Entitiy Framework Core](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/5.0.0-rc.2.20475.6)**
+**[Entitiy Framework Core](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore)**
 
 **[Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json/)**
