@@ -2,7 +2,7 @@
 
 Quick links:
 
-[Refresh branch list](https://github.com/tolgayolal/storage/blob/main/code-lib/git/README.md#refresh-branch-list)
+- [Refresh branch list](https://github.com/tolgayolal/storage/blob/main/code-lib/git/README.md#refresh-branch-list)
 
 ## Refresh branch list
 This code refresh all branches. Delete closed branches, add new branches etc..
