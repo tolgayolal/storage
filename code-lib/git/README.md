@@ -9,4 +9,13 @@ This code refresh all branches. Delete closed branches, add new branches etc..
 ```cmd
 git remote update origin --prune
 ```
-Ref : (https://stackoverflow.com/questions/36358265/when-does-git-refresh-the-list-of-remote-branches)
+Ref : https://devconnected.com/how-to-clean-up-git-branches/
+
+
+
+## Clear local branch list
+This code remove all merged branches exclude master branch. 
+```cmd
+git branch --merged | egrep -v "(^\*|master)" | xargs git branch -d
+```
+Ref : https://devconnected.com/how-to-clean-up-git-branches/
