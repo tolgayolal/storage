@@ -13,6 +13,13 @@ Ref : https://devconnected.com/how-to-clean-up-git-branches/
 
 
 
+
+
+
+
+
+
+
 ## Clear local branch list
 This code remove all merged branches exclude master branch. 
 ```cmd
