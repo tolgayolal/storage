@@ -26,3 +26,8 @@ This code remove all merged branches exclude master branch.
 git branch --merged | egrep -v "(^\*|master)" | xargs git branch -d
 ```
 Ref : https://devconnected.com/how-to-clean-up-git-branches/
+
+##Mixed usage for clear all branches
+```bash
+git remote update origin --prune && git branch --merged | egrep -v "(^\*|master)" | xargs git branch -d
+```
