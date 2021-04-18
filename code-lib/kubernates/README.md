@@ -11,7 +11,6 @@ Ref : https://gist.github.com/ipedrazas/9c622404fb41f2343a0db85b3821275d
 This code remove all pods
 ```bash
 kubectl delete --all pods
-xargs -n 1 bash -c
 ```
 Ref : https://stackoverflow.com/questions/33509194/command-to-delete-all-pods-in-all-kubernetes-namespaces
 
