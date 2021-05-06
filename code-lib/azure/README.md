@@ -5,7 +5,8 @@ This code copy all data in storage account to another storage accout. SAS means 
 ```bash
 azcopy cp "https://[sourceStorageAccountName].blob.core.windows.net/[SAS]" "https://[targetStorageAccountName].blob.core.windows.net/[SAS]" --recursive
 ```
---Ref : https://devconnected.com/how-to-clean-up-git-branches/  --Install Azcopy : https://www.thomasmaurer.ch/2019/05/how-to-install-azcopy-for-azure-storage/
+Ref : https://devconnected.com/how-to-clean-up-git-branches/  
+Install Azcopy : https://www.thomasmaurer.ch/2019/05/how-to-install-azcopy-for-azure-storage/
 
 
 
