@@ -1,1 +1,12 @@
-azcopy cp "https://mutlubebek98strg.blob.core.windows.net/academy?sv=2020-04-08&ss=btqf&srt=sco&st=2021-05-06T09%3A45%3A01Z&se=2021-05-07T09%3A45%3A01Z&sp=rl&sig=lhMAWNYo2wSeaEzbqKnH1Vfma4%2Ba5zgBQPFwUJE0%2FkM%3D" "https://mutlubebekrelease36strg.blob.core.windows.net/academy?sv=2020-04-08&ss=btqf&srt=sco&st=2021-05-06T09%3A41%3A29Z&se=2021-05-07T09%3A41%3A29Z&sp=rwl&sig=OZBw5TuRXcSlRkvaY9Vp7MYW9GjoYn9F5iu5hYiud5M%3D" --recursive true
+# Azure CLI codes
+
+## Copy storage account data to another 
+This code copy all data in storage account to another storage accout. SAS means Shared Access Signiture. Can be obtain in Azure Storage explorer. (Be careful on permissions on SAS) 
+```bash
+azcopy cp "https://[sourceStorageAccountName].blob.core.windows.net/[SAS]" "https://[targetStorageAccountName].blob.core.windows.net/[SAS]" --recursive
+```
+Ref : https://devconnected.com/how-to-clean-up-git-branches/
+Install Azcopy : https://www.thomasmaurer.ch/2019/05/how-to-install-azcopy-for-azure-storage/
+
+
+
