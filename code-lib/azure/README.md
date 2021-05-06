@@ -1,7 +1,7 @@
 # Azure CLI codes
 
 ## Copy storage account data to another 
-This code copy all data in storage account to another storage accout. SAS means Shared Access Signiture. Can be obtain in Azure Storage explorer. (Be careful on permissions on SAS) 
+This code copy all data in storage account to another storage accout. SAS means Shared Access Signature. Can be obtain in Azure Storage explorer. (Be careful on permissions on SAS) 
 ```bash
 azcopy cp "https://[sourceStorageAccountName].blob.core.windows.net/[SAS]" "https://[targetStorageAccountName].blob.core.windows.net/[SAS]" --recursive
 ```
