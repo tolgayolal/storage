@@ -14,4 +14,9 @@ kubectl delete --all pods
 ```
 Ref : https://stackoverflow.com/questions/33509194/command-to-delete-all-pods-in-all-kubernetes-namespaces
 
+## Read Secrets in Clear Text
+This code show secret data in plain text
+```bash
+kubectl get secret [SecretGroupName] --template={{.data.[SecretName]}} | base64 --decode
+```
 
